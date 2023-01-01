@@ -5,7 +5,9 @@
     Системный вызов chdir("/tmp")`
    ```
 
-    ![snimok]( /Users/antonbannikov/Desktop/chdir.png)
+   <img width="804" alt="chdir" src="https://user-images.githubusercontent.com/103573450/210181855-43aaa1d8-29de-485b-ae52-0e7428963d34.png">
+
+
 
 ---
 
@@ -23,7 +25,8 @@
    ```
     База данных находится в: /usr/share/misc/magic.mgc`
    ```
-    ![snimok]( /Users/antonbannikov/Desktop/strace_file.png)
+   <img width="802" alt="strace_file" src="https://user-images.githubusercontent.com/103573450/210181868-d361ac95-f93e-4b7a-aa0a-fb80cebad623.png">
+
 
 ---
 
@@ -57,7 +60,8 @@
     Устанавливаю все по документации, все устанавливается но при вызове команды strace dpkg -L bpfcc-tools | grep sbin/opensnoop
     пишет что пакет bpfcc-tools не установлен. Не могу понять что делаю не так, подскажите пожалуйста. 
    ```
-    ![snimok]( /Users/antonbannikov/Desktop/problem.png)
+   <img width="808" alt="problem" src="https://user-images.githubusercontent.com/103573450/210181883-cae4b292-473c-42a4-8f7f-1a0353b5e08b.png">
+
 
 ---
 
@@ -106,7 +110,8 @@
 
 9. Используя `-o stat` для `ps`, определите, какой наиболее часто встречающийся статус у процессов в системе. В `man ps` ознакомьтесь (`/PROCESS STATE CODES`) что значат дополнительные к основной заглавной буквы статуса процессов. Его можно не учитывать при расчете (считать S, Ss или Ssl равнозначными).
 
-    ![snimok]( /Users/antonbannikov/Desktop/stat.png)
+   <img width="692" alt="stat" src="https://user-images.githubusercontent.com/103573450/210181934-81622cd6-b289-4363-9989-ff56c88534db.png">
+
    ```
     Самый наиболее часто встречающийся статус у процессов в системе: 
        S -> Спящее состояние: прерываемое (interruptible sleep (waiting for an event to complete)
@@ -119,5 +124,5 @@
        s  -> is a session leader
        l  -> is multi-threaded (using CLONE_THREAD, like NPTL pthreads do)
        +  -> is in the foreground process group
-```
+   ```
 
